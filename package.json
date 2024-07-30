@@ -1,0 +1,22 @@
+{
+  "name": "api-notes",
+  "private":true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "workspaces":[
+    "BackEnd",
+    "FrontEnd"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+
+  "devDependencies": {
+    "standard": "17.1.0"
+  }
+}
+

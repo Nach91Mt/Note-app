@@ -7,6 +7,10 @@
     "BackEnd",
     "FrontEnd"
   ],
+  "engines": {
+    "npm":"10.5.2",
+    "node": "20.13.1"
+  },
   "scripts": {
     "build": "npm run build --workspace=FrontEnd",
     "start":"npm run start --workspace=FrontEnd",

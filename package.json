@@ -8,9 +8,9 @@
     "FrontEnd"
   ],
   "scripts": {
-    "build": "npm run build --workspaces=FrontEnd",
-    "start":"npm run start --workspaces=BackEnd",
-    "dev:app": "npm run build && npm run start --workspaces=BackEnd"
+    "build": "npm run build --workspace=FrontEnd",
+    "start":"npm run start --workspace=FrontEnd",
+    "dev:app": "npm run build && npm run start --workspace=BackEnd"
   },
   "keywords": [],
   "author": "",

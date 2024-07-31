@@ -12,6 +12,7 @@ export default function NoteForm({ addNote, handleLogout }) {
       content: newNote,
       important: Math.random() > 0.5
     }
+    //hola
     addNote(noteObject)
     setNewNote('')
     if (togglableRef.current) {
